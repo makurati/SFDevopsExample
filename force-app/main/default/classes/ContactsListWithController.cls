@@ -12,6 +12,7 @@ public List<Contact> getContacts() {
     
     public void sortByLastName() {
     this.sortOrder = 'LastName';
+system.debug('Test-change-2');
 }
 public void sortByFirstName() {
     this.sortOrder = 'FirstName';
