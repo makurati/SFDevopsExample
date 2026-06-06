@@ -6,6 +6,7 @@ public class AccountProcessor {
         for(Account acc: accId){
             List<Contact> lstContact=acc.Contacts;
             acc.Number_Of_Contacts__c= lstContact.size();
+            system.debug('Test-change-1');
             
         }
         update accId;
